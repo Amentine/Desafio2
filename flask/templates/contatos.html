@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block background %}<body class="fundo">{% endblock %}
+
+{% block conteudo %}
+
+<h3>Entre em contato</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam facilisis risus arcu.
+</p>
+
+<hr>
+
+<form>
+
+    Seu e-mail: <br>
+    <input type="text" name="email"> <br>
+
+    Assunto: <br>
+    <input type="text" name="assunto"> <br>
+
+    <label for="descricao">Descricao</label>
+    <br>
+    <textarea id="descricao" name="descricao"></textarea>
+    <br>
+
+    <input type="submit" value="Enviar">
+
+
+</form>
+
+{% endblock %}

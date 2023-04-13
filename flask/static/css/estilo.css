@@ -1,0 +1,50 @@
+#fundo1{
+    background-image: url(../img/fundo.png);
+}
+
+.fundo{
+    background-image: url(../img/fundo2.png);
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.capa{
+    margin-left: 80px;
+}
+
+body{
+    /* border: 2px red solid; */
+    max-width: 70%;
+}
+    
+h3{
+   margin-left: 80px;
+ }
+    
+p{
+   margin-left: 80px;
+ }
+
+ol{
+    margin-left: 80px;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+a{
+    float: right;
+}
+
+form{
+    margin-left: 80px;
+}
+    
+ footer{
+    text-align: center;
+}
